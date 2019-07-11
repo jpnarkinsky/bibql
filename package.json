@@ -1,0 +1,18 @@
+{
+  "name": "bibql",
+  "version": "0.1.0",
+  "description": "BibQL brings graphQL to the study or religious texts",
+  "main": "src/index.js",
+  "repository": "https://github.com/jpnarkinsky/bibql.git",
+  "author": "Patrick Narkinsky <patrick@narkinsky.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "graphql-yoga": "^1.18.0",
+    "nodemon": "^1.19.1",
+    "yarn": "^1.16.0"
+  },
+  "scripts": {
+    "dev-server": "nodemon src/index.js"
+  }
+}
